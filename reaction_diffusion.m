@@ -1,5 +1,16 @@
+%The reosurces used to implement the algorithms
+%http://karlsims.com/rd.html
+%https://youtu.be/BV9ny785UNc
 
 function [pattern] = reaction_diffusion(size,k,f,iterations)
+%used for generating road like irregular shapes
+%{
+size - size of the pattern needed (large recommended like 100 then use
+        imresize to make it smaller
+k - kill rate part of the algorithm values 0.6-0.8 are recommended
+f - feed rate part of the algorithms values 0.2-0.9 are recommened
+iterations - must be large such as 10000
+%}
 k  = max(min(k,1),0);
 f = max(min(f,1),0);
 k = k*(0.070-0.045)+0.045;
