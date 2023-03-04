@@ -5,7 +5,7 @@ ToDo List
 - [X] Merging Code
 - [X] Fill with ones Code 
 - [X] Code to test Sum To One
-- [ ] Fix Sum To One Code
+- [X] Fix Sum To One Code
 - [ ] Writing Different Smooth Noise Functions
     - [ ] Perline-Like
     - [ ] OpenSimplex
