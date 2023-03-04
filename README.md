@@ -7,8 +7,8 @@ ToDo List
 - [X] Code to test Sum To One
 - [X] Fix Sum To One Code
 - [ ] Writing Different Smooth Noise Functions
-    - [ ] Perline-Like
+    - [X] Perline-Like
     - [ ] OpenSimplex
 - [ ] Irregular Objects
-    - [ ] Perlin-Like Loop Blob
+    - [X] Perlin-Like Loop Blob
     - [ ] Reaction Diffusion
