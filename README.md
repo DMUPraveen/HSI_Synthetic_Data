@@ -4,7 +4,7 @@ Repository for synthetic data generation code for hyper spectral image unmixing 
 ToDo List
 - [X] Merging Code
 - [X] Fill with ones Code 
-- [ ] Test Sum To One Code
+- [X] Code to test Sum To One
 - [ ] Fix Sum To One Code
 - [ ] Writing Different Smooth Noise Functions
     - [ ] Perline-Like
