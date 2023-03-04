@@ -9,7 +9,8 @@ function [sumToOneFails] = test_sum_to_one(abundances,silent)
     if silent is true it will print an error or okay message otherwise it
     will not do so
 %}
-    check_function = @(x) x~=1;
+    threshold = 0.0001;
+    check_function = @(x) abs(x-1)>threshold;
     sum_array = sum(abundances,3);%summing all the endmember abundances
     fails_array = arrayfun(check_function,sum_array);
     sumToOneFails = sum(fails_array(:)); 
