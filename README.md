@@ -12,3 +12,4 @@ ToDo List
 - [X] Irregular Objects
     - [X] Perlin-Like Loop Blob
     - [X] Reaction Diffusion
+- [X] Combining abundances
